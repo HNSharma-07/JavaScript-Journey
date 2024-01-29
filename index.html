@@ -1,0 +1,956 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Best JavaScript projects for beginners to practice"
+    />
+    <meta
+      name="keywords"
+      content="HTML, CSS, JavaScript, vanilla js, Game, top 10 JavaScript projects, resume, Best Javascript projects for resume, Javascript projects for practice"
+    />
+
+    <!--=============== FAVICON ===============-->
+    <link
+      rel="shortcut icon"
+      href="./assets/img/favicon.png"
+      type="image/x-icon"
+    />
+
+    <!--=============== REMIXICONS ===============-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.4.0/remixicon.css"
+      crossorigin=""
+    />
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+
+    <title>JS Projects | Learn & Contribute</title>
+  </head>
+  <body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav__logo">
+          <span class="nav__logo-circle">JS</span>
+          <span class="nav__logo-name">Journey</span>
+        </a>
+
+        <div class="nav__menu" id="nav-menu">
+          <span class="nav__title">Menu</span>
+
+          <h3 class="nav__name">JS Journey</h3>
+
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active-link" id="home-btn"
+                >Home</a
+              >
+            </li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link" id="about-btn">About</a>
+            </li>
+            <li class="nav__item">
+              <a href="#contribute" class="nav__link" id="contribute-btn"
+                >Contribute</a
+              >
+            </li>
+            <li class="nav__item">
+              <a
+                href="#contact"
+                class="nav__link nav__link-button"
+                id="contact-btn"
+                >Contact Me</a
+              >
+            </li>
+          </ul>
+
+          <!-- close button -->
+          <div class="nav__close" id="nav-close">
+            <i class="ri-close-line"></i>
+          </div>
+        </div>
+
+        <div class="nav__buttons">
+          <!-- Theme button -->
+          <i class="ri-moon-line change-theme" id="theme-button"></i>
+
+          <!-- Toggle button -->
+          <div class="nav__toggle" id="nav-toggle">
+            <i class="ri-menu-4-line"></i>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+      <!--==================== PROJECTS ====================-->
+      <section class="projects section active" id="home">
+        <h2 class="section__title-1">
+          <span>Projects.</span>
+        </h2>
+
+        <input
+          onkeyup="search_project()"
+          type="text"
+          name=""
+          id="searchbar"
+          class="container grid"
+          placeholder="Search Projects..."
+        />
+
+        <div class="projects__container container grid" id="projectsContainer">
+          <article class="projects__card">
+            <div class="projects__image">
+              <img
+                src="./assets/img/projects/project-1.png"
+                alt="image"
+                class="projects__img"
+              />
+
+              <a
+                href="https://hnsharma-07.github.io/Guess-My-Number/"
+                title="Live"
+                target="_blank"
+                class="projects__button button"
+              >
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </a>
+            </div>
+
+            <div class="projects__content">
+              <h3 class="projects__subtitle">01</h3>
+              <h2 class="projects__title">Guess My Number!</h2>
+              <p class="projects__description">
+                It's a simple number guessing game in which I have given UI to
+                my first real-world JavaScript programme.
+              </p>
+            </div>
+
+            <div class="projects__buttons">
+              <a
+                href="https://github.com/HNSharma-07/Guess-My-Number"
+                target="_blank"
+                title="Code"
+                class="projects__link"
+              >
+                <i class="fa-brands fa-github"></i>code
+              </a>
+              <a
+                href="https://www.linkedin.com/in/harsh-sharma-professional/"
+                target="_blank"
+                title="Account"
+                class="projects__link"
+              >
+                <i class="fa-brands fa-linkedin-in"></i>Author
+              </a>
+            </div>
+          </article>
+          <article class="projects__card">
+            <div class="projects__image">
+              <img
+                src="./assets/img/projects/project-2.png"
+                alt="image"
+                class="projects__img"
+              />
+
+              <a
+                href="https://hnsharma-07.github.io/Ask-me-Weather/"
+                title="Live"
+                target="_blank"
+                class="projects__button button"
+              >
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </a>
+            </div>
+
+            <div class="projects__content">
+              <h3 class="projects__subtitle">02</h3>
+              <h2 class="projects__title">Ask me Weather!</h2>
+              <p class="projects__description">
+                Its an ultimate weather app that I have build by fetching data
+                from API call and fetures developed by Javascript.
+              </p>
+            </div>
+
+            <div class="projects__buttons">
+              <a
+                href="https://github.com/HNSharma-07/Ask-me-Weather"
+                target="_blank"
+                title="Code"
+                class="projects__link"
+              >
+                <i class="fa-brands fa-github"></i>code
+              </a>
+              <a
+                href="https://www.linkedin.com/in/harsh-sharma-professional/"
+                target="_blank"
+                title="Account"
+                class="projects__link"
+              >
+                <i class="fa-brands fa-linkedin-in"></i>Author
+              </a>
+            </div>
+          </article>
+          <article class="projects__card">
+            <div class="projects__image">
+              <img
+                src="./assets/img/projects/project-3.png"
+                alt="image"
+                class="projects__img"
+              />
+
+              <a
+                href="https://hnsharma-07.github.io/Age-Calculator/"
+                title="Live"
+                target="_blank"
+                class="projects__button button"
+              >
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </a>
+            </div>
+
+            <div class="projects__content">
+              <h3 class="projects__subtitle">03</h3>
+              <h2 class="projects__title">Age Calculator</h2>
+              <p class="projects__description">
+                This simply tells how old you are by taking your birthdate as an
+                input.
+              </p>
+            </div>
+
+            <div class="projects__buttons">
+              <a
+                href="https://github.com/HNSharma-07/Age-Calculator"
+                target="_blank"
+                title="Code"
+                class="projects__link"
+              >
+                <i class="fa-brands fa-github"></i>code
+              </a>
+              <a
+                href="https://www.linkedin.com/in/harsh-sharma-professional/"
+                target="_blank"
+                title="Account"
+                class="projects__link"
+              >
+                <i class="fa-brands fa-linkedin-in"></i>Author
+              </a>
+            </div>
+          </article>
+          <article class="projects__card">
+            <div class="projects__image">
+              <img
+                src="./assets/img/projects/project-4.png"
+                alt="image"
+                class="projects__img"
+              />
+
+              <a
+                href="https://hnsharma-07.github.io/Password-Generator/"
+                title="Live"
+                target="_blank"
+                class="projects__button button"
+              >
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </a>
+            </div>
+
+            <div class="projects__content">
+              <h3 class="projects__subtitle">04</h3>
+              <h2 class="projects__title">Password Generator</h2>
+              <p class="projects__description">
+                A Random Password Generator, one of the first JavaScript mini
+                project.
+              </p>
+            </div>
+
+            <div class="projects__buttons">
+              <a
+                href="https://github.com/HNSharma-07/Password-Generator"
+                target="_blank"
+                title="Code"
+                class="projects__link"
+              >
+                <i class="fa-brands fa-github"></i>code
+              </a>
+              <a
+                href="https://www.linkedin.com/in/harsh-sharma-professional/"
+                target="_blank"
+                title="Account"
+                class="projects__link"
+              >
+                <i class="fa-brands fa-linkedin-in"></i>Author
+              </a>
+            </div>
+          </article>
+          <article class="projects__card">
+            <div class="projects__image">
+              <img
+                src="./assets/img/projects/project-5.png"
+                alt="image"
+                class="projects__img"
+              />
+
+              <a
+                href="https://hnsharma-07.github.io/Rock-Paper-Scissors/"
+                title="Live"
+                target="_blank"
+                class="projects__button button"
+              >
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </a>
+            </div>
+
+            <div class="projects__content">
+              <h3 class="projects__subtitle">05</h3>
+              <h2 class="projects__title">Rock Paper Scissors</h2>
+              <p class="projects__description">
+                It's a simple game that you can play with the computer, built
+                with JavaScript ES6 version.
+              </p>
+            </div>
+
+            <div class="projects__buttons">
+              <a
+                href="https://github.com/HNSharma-07/Rock-Paper-Scissors"
+                target="_blank"
+                title="Code"
+                class="projects__link"
+              >
+                <i class="fa-brands fa-github"></i>code
+              </a>
+              <a
+                href="https://www.linkedin.com/in/harsh-sharma-professional/"
+                target="_blank"
+                title="Account"
+                class="projects__link"
+              >
+                <i class="fa-brands fa-linkedin-in"></i>Author
+              </a>
+            </div>
+          </article>
+          <article class="projects__card">
+            <div class="projects__image">
+              <img
+                src="./assets/img/projects/project-6.png"
+                alt="image"
+                class="projects__img"
+              />
+
+              <a
+                href="https://hnsharma-07.github.io/TODO-App/"
+                title="Live"
+                target="_blank"
+                class="projects__button button"
+              >
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </a>
+            </div>
+
+            <div class="projects__content">
+              <h3 class="projects__subtitle">06</h3>
+              <h2 class="projects__title">TODO App</h2>
+              <p class="projects__description">
+                Learning CRUD Operations in JavaScript by building basic TODO
+                APP.
+              </p>
+            </div>
+
+            <div class="projects__buttons">
+              <a
+                href="https://github.com/HNSharma-07/TODO-App"
+                target="_blank"
+                title="Code"
+                class="projects__link"
+              >
+                <i class="fa-brands fa-github"></i>code
+              </a>
+              <a
+                href="https://www.linkedin.com/in/harsh-sharma-professional/"
+                target="_blank"
+                title="Account"
+                class="projects__link"
+              >
+                <i class="fa-brands fa-linkedin-in"></i>Author
+              </a>
+            </div>
+          </article>
+          <article class="projects__card">
+            <div class="projects__image">
+              <img
+                src="./assets/img/projects/project-7.png"
+                alt="image"
+                class="projects__img"
+              />
+
+              <a
+                href="https://hnsharma-07.github.io/Dev-Detective/"
+                title="Live"
+                target="_blank"
+                class="projects__button button"
+              >
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </a>
+            </div>
+
+            <div class="projects__content">
+              <h3 class="projects__subtitle">07</h3>
+              <h2 class="projects__title">Dev Detective</h2>
+              <p class="projects__description">
+                Presents the GitHub user's Information to your screen with free
+                API link which allows you to fetch the data without API key.
+              </p>
+            </div>
+
+            <div class="projects__buttons">
+              <a
+                href="https://github.com/HNSharma-07/Dev-Detective"
+                target="_blank"
+                title="Code"
+                class="projects__link"
+              >
+                <i class="fa-brands fa-github"></i>code
+              </a>
+              <a
+                href="https://www.linkedin.com/in/harsh-sharma-professional/"
+                target="_blank"
+                title="Account"
+                class="projects__link"
+              >
+                <i class="fa-brands fa-linkedin-in"></i>Author
+              </a>
+            </div>
+          </article>
+          <article class="projects__card">
+            <div class="projects__image">
+              <img
+                src="./assets/img/projects/project-8.png"
+                alt="image"
+                class="projects__img"
+              />
+
+              <a
+                href="https://hnsharma-07.github.io/Tic-Tac-Toe/"
+                title="Live"
+                target="_blank"
+                class="projects__button button"
+              >
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </a>
+            </div>
+
+            <div class="projects__content">
+              <h3 class="projects__subtitle">08</h3>
+              <h2 class="projects__title">Tic Tac Toe</h2>
+              <p class="projects__description">
+                A simple two player Tic-Tac-Toe game, that I have built to apply
+                my JavaScript DOM manipulation concepts.
+              </p>
+            </div>
+
+            <div class="projects__buttons">
+              <a
+                href="https://github.com/HNSharma-07/Tic-Tac-Toe"
+                target="_blank"
+                title="Code"
+                class="projects__link"
+              >
+                <i class="fa-brands fa-github"></i>code
+              </a>
+              <a
+                href="https://www.linkedin.com/in/harsh-sharma-professional/"
+                target="_blank"
+                title="Account"
+                class="projects__link"
+              >
+                <i class="fa-brands fa-linkedin-in"></i>Author
+              </a>
+            </div>
+          </article>
+          <article class="projects__card">
+            <div class="projects__image">
+              <img
+                src="./assets/img/projects/project-n.png"
+                alt="image"
+                class="projects__img"
+              />
+
+              <a
+                href="https://hnsharma-07.github.io/Guess-My-Number/"
+                title="Live"
+                target="_blank"
+                class="projects__button button"
+              >
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </a>
+            </div>
+
+            <div class="projects__content">
+              <h3 class="projects__subtitle">09</h3>
+              <h2 class="projects__title">Title-9</h2>
+              <p class="projects__description">Description-9</p>
+            </div>
+
+            <div class="projects__buttons">
+              <a
+                href="https://github.com/HNSharma-07/Guess-My-Number"
+                target="_blank"
+                title="Code"
+                class="projects__link"
+              >
+                <i class="fa-brands fa-github"></i>code
+              </a>
+              <a
+                href="https://www.linkedin.com/in/harsh-sharma-professional/"
+                target="_blank"
+                title="Account"
+                class="projects__link"
+              >
+                <i class="fa-brands fa-linkedin-in"></i>Author
+              </a>
+            </div>
+          </article>
+          <article class="projects__card">
+            <div class="projects__image">
+              <img
+                src="./assets/img/projects/project-n.png"
+                alt="image"
+                class="projects__img"
+              />
+
+              <a
+                href="https://hnsharma-07.github.io/Guess-My-Number/"
+                title="Live"
+                target="_blank"
+                class="projects__button button"
+              >
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </a>
+            </div>
+
+            <div class="projects__content">
+              <h3 class="projects__subtitle">10</h3>
+              <h2 class="projects__title">Title-10</h2>
+              <p class="projects__description">Description-10</p>
+            </div>
+
+            <div class="projects__buttons">
+              <a
+                href="https://github.com/HNSharma-07/Guess-My-Number"
+                target="_blank"
+                title="Code"
+                class="projects__link"
+              >
+                <i class="fa-brands fa-github"></i>code
+              </a>
+              <a
+                href="https://www.linkedin.com/in/harsh-sharma-professional/"
+                target="_blank"
+                title="Account"
+                class="projects__link"
+              >
+                <i class="fa-brands fa-linkedin-in"></i>Author
+              </a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!--==================== HOME ====================-->
+      <section class="home section" id="about">
+        <div class="home__container container grid">
+          <h1 class="home__name">Harsh Sharma</h1>
+          <div class="home__perfil">
+            <div class="home__image">
+              <img
+                src="./assets/img/myProfile.jpg"
+                alt="image"
+                class="home__img"
+              />
+              <div class="home__shadow"></div>
+              <img
+                src="./assets/img/curved-arrow.svg"
+                alt=""
+                class="home__arrow"
+              />
+              <img
+                src="./assets/img/random-lines.svg"
+                alt=""
+                class="home__line"
+              />
+
+              <div class="geometric-box"></div>
+            </div>
+
+            <div class="home__social">
+              <a
+                href="https://hnsharma-07.github.io/portfolio/"
+                target="_blank"
+                title="Portfolio Link"
+                class="home__social-link"
+              >
+                <i class="fa-solid fa-link"></i>
+              </a>
+              <a
+                href="https://www.linkedin.com/in/harsh-sharma-professional/"
+                target="_blank"
+                title="Linkedin Acc."
+                class="home__social-link"
+              >
+                <i class="fa-brands fa-linkedin-in"></i>
+              </a>
+              <a
+                href="https://github.com/HNSharma-07"
+                target="_blank"
+                title="GitHub Acc."
+                class="home__social-link"
+              >
+                <i class="fa-brands fa-github"></i>
+              </a>
+            </div>
+          </div>
+          <div class="home__info">
+            <p class="home__description">
+              <b>An Aspiring Software Developer</b>, documenting his Javascript
+              journey via this Repository. All projects are made with Vanilla JS
+              (JS without any framework) only.
+            </p>
+
+            <a href="#about-repo" class="home__scroll">
+              <div class="home__scroll-box">
+                <i class="ri-arrow-down-s-line"></i>
+              </div>
+
+              <span class="home__scroll-text">About Repository</span>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== ABOUT ====================-->
+      <section class="about section" id="about-repo">
+        <div class="about__container container grid">
+          <h2 class="section__title-1">
+            <span>About Repo.</span>
+          </h2>
+          <div class="about__perfil">
+            <div class="about__image">
+              <img src="./assets/img/me2.jpg" alt="image" class="about__img" />
+              <div class="about__shadow"></div>
+              <div class="geometric-box"></div>
+              <img
+                src="./assets/img/random-lines.svg"
+                alt="img"
+                class="about__line"
+              />
+              <div class="about__box"></div>
+            </div>
+          </div>
+          <div class="about__info">
+            <p class="about__description">
+              This simply contains my 10 must have Javascript Projects of
+              <b>different types</b> that I built in January 2024. All projects
+              are <b>completely responsive</b> and beginner friendly to
+              understand the code.
+            </p>
+            <p class="about__description">
+              <b>Future plan:</b> Add more vanilla JS <b>projects</b> and update
+              repository with my <b>JS tutorial code</b> in structured manner
+              with curated folders to master JS from scratch.
+            </p>
+
+            <div class="about__buttons">
+              <a href="https://www.github.com/" class="button">
+                <i class="fa-regular fa-star"></i> Repo.
+              </a>
+              <a
+                href="https://www.linkedin.com/"
+                target="_blank"
+                class="button__ghost"
+              >
+                <i class="ri-linkedin-box-line"></i> Post
+              </a>
+            </div>
+
+            <ul class="about__list">
+              <li class="about__item">
+                If you're here then please show some ❤️ by ⭐ing the repo on
+                github and 👍 and 💬 the post on linkedin for better reach, I
+                would really appreciate it.
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== SERVICES ====================-->
+      <section class="services section" id="contribute">
+        <h2 class="section__title-2">
+          <span>Contribute.</span>
+        </h2>
+        <h3>Join this Journey following this Steps</h3>
+        <div class="services__container container grid">
+          <article class="services__card">
+            <div class="services__border"></div>
+            <div class="services__content">
+              <div class="services__icon">
+                <div class="services__box"></div>
+                <i class="fa-solid fa-code-fork"></i>
+              </div>
+
+              <h3 class="services__title">
+                1.Fork the repository first
+                <a href="#" target="_blank"><u>Here.</u></a>
+              </h3>
+
+              <p class="services__description">
+                Before contribution make sure your project is responsive and
+                your code is deployed on the internet
+              </p>
+            </div>
+          </article>
+          <article class="services__card">
+            <div class="services__border"></div>
+            <div class="services__content">
+              <div class="services__icon">
+                <div class="services__box"></div>
+                <i class="ri-code-box-line"></i>
+              </div>
+
+              <h3 class="services__title">
+                2.Edit sequencial project card in index.html
+              </h3>
+
+              <p class="services__description">
+                Ex: Live link, project Title, decription, repo link and linkedin
+                Account in index.html file.
+              </p>
+            </div>
+          </article>
+          <article class="services__card">
+            <div class="services__border"></div>
+            <div class="services__content">
+              <div class="services__icon">
+                <div class="services__box"></div>
+                <i class="fa-regular fa-image"></i>
+              </div>
+
+              <h3 class="services__title">
+                3.Upload project's UI photo in projects folder with accurate
+                name
+              </h3>
+
+              <p class="services__description">
+                Ex: project-9.png for 9th project card via add files >uoload
+                files in projects folder.
+              </p>
+            </div>
+          </article>
+          <article class="services__card">
+            <div class="services__border"></div>
+            <div class="services__content">
+              <div class="services__icon">
+                <div class="services__box"></div>
+                <i class="fa-solid fa-code-pull-request"></i>
+              </div>
+
+              <h3 class="services__title">4.Send me final pull request</h3>
+
+              <p class="services__description">
+                commit the code and changes and push it to remote.
+              </p>
+            </div>
+          </article>
+        </div>
+        <div class="about__buttons">
+          <a href="https://www.github.com/" class="button">
+            <i class="fa-regular fa-star"></i> Repo.
+          </a>
+          <a
+            href="https://www.linkedin.com/"
+            target="_blank"
+            class="button__ghost"
+          >
+            <i class="ri-linkedin-box-line"></i> Post
+          </a>
+        </div>
+        <h3>
+          <i class="fa-solid fa-handshake-angle"></i>
+          other then active code contribution, you can contribute indiretlly via
+          sharing this initiative on different plateform. (⭐ing the repo on
+          github and 👍&💬 the post on linkedin for better reach)
+        </h3>
+      </section>
+
+      <!--==================== CONTACT ====================-->
+      <section class="contact section" id="contact">
+        <div class="contact__container grid">
+          <div class="contact__data">
+            <h2 class="section__title-2">
+              <span>Contact Me.</span>
+            </h2>
+
+            <p class="contact__description-1">
+              I will read all emails. Send me any message you want and I'll get
+              back to you.
+            </p>
+            <p class="contact__description-2">
+              I need your <b>Name</b> and <b>Email Address</b>, but you won't
+              receive anything other than your reply.
+            </p>
+            <div class="geometric-box"></div>
+          </div>
+          <div class="contact__mail">
+            <h2 class="contact__title">Send Me A Message</h2>
+            <form action="" class="contact__form" id="contact-form">
+              <div class="contact__group">
+                <div class="contact__box">
+                  <input
+                    type="text"
+                    name="user_name"
+                    class="contact__input"
+                    id="name"
+                    required
+                    placeholder="First Name "
+                  />
+                  <label for="name" class="contact__label">First Name </label>
+                </div>
+                <div class="contact__box">
+                  <input
+                    type="email"
+                    name="user_email"
+                    class="contact__input"
+                    id="email"
+                    required
+                    placeholder="Email Address"
+                  />
+                  <label for="email" class="contact__label"
+                    >Email Address</label
+                  >
+                </div>
+              </div>
+              <div class="contact__box">
+                <input
+                  type="text"
+                  name="user_subject"
+                  class="contact__input"
+                  id="subject"
+                  required
+                  placeholder="Subject"
+                />
+                <label for="subject" class="contact__label">Subject</label>
+              </div>
+
+              <div class="contact__box contact__area">
+                <textarea
+                  name="user_message"
+                  id="message"
+                  class="contact__input"
+                  required
+                  placeholder="Message"
+                ></textarea>
+                <label for="message" class="contact__label">Message</label>
+              </div>
+
+              <p class="contact__message" id="contact-message"></p>
+
+              <button type="submit" class="contact__button button">
+                <i class="ri-send-plane-line"></i> Send Message
+              </button>
+            </form>
+          </div>
+          <div class="contact__social">
+            <img
+              src="./assets/img/curved-arrow.svg"
+              alt=""
+              class="contact__social-arrow"
+            />
+            <div class="contact__social-data">
+              <div>
+                <p class="contact__social-description-1">
+                  Does not trust this !
+                </p>
+
+                <p class="contact__social-description-2">
+                  Contact or write me Here
+                </p>
+              </div>
+              <div class="contact__social-links">
+                <a
+                  href="tel:8780707566"
+                  target="_blank"
+                  class="contact__social-link"
+                >
+                  <i class="fa-solid fa-phone"></i>
+                </a>
+                <a
+                  href="mailto:harsh.200410116068@gmail.com"
+                  target="_blank"
+                  class="contact__social-link"
+                >
+                  <i class="fa-regular fa-envelope"></i>
+                </a>
+                <a
+                  href="https://www.linkedin.com/in/harsh-sharma-professional/"
+                  target="_blank"
+                  class="contact__social-link"
+                >
+                  <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer>
+      <div class="footer-container">
+        <section class="pagination active">
+          <button onclick="goToPreviousPage()">Prev.</button>
+          <button onclick="goToPage(1)" class="active">1</button>
+          <button onclick="goToPage(2)">2</button>
+          <!-- <button onclick="goToPage(3)">3</button>
+          <button onclick="goToPage(4)">4</button> -->
+          <button onclick="goToNextPage()">Next</button>
+        </section>
+        <span
+          >Initiated with ❤️ by
+          <a
+            target="_blank"
+            href="https://www.linkedin.com/in/harsh-sharma-professional/"
+            >@Harsh Sharma</a
+          >
+          to Contribute the community.</span
+        >
+      </div>
+    </footer>
+
+    <!--========== SCROLL UP ==========-->
+    <a href="#" class="scrollup" id="scroll-up">
+      <i class="ri-arrow-up-s-line"></i>
+    </a>
+
+    <!--=============== SCROLLREVEAL ===============-->
+    <script src="./assets/js/scrollreveal.min.js"></script>
+
+    <!--=============== EMAIL JS ===============-->
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+    <!--=============== FONT AWSOME ===============-->
+    <script
+      src="https://kit.fontawesome.com/365a605626.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>

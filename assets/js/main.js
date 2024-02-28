@@ -208,7 +208,7 @@ function search_project() {
 
 function renderProjects() {
   window.scrollTo({ top: 0, behavior: "smooth" });
-  const projectsPerPage = 8;
+  const projectsPerPage = 9;
   const startIndex = (currentPage - 1) * projectsPerPage;
   const endIndex = startIndex + projectsPerPage;
 
@@ -236,7 +236,7 @@ function goToPage(page) {
 }
 
 function goToNextPage() {
-  if (currentPage < Math.ceil(x.length / 8)) {
+  if (currentPage < Math.ceil(x.length / 9)) {
     currentPage++;
     renderProjects();
     updateActiveButton();

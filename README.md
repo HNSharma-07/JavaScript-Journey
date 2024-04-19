@@ -7,7 +7,7 @@ Complete JavaScript from Beginning to Mastery - Unlock the Power of Web Developm
 - This repository contains the various varaities of projects and notes to master the JS.
 - Also i am going to cover every advanced stuff of senior developer so that any one can master JS and get their hands dirty on any advanced JS framework.
 
-### <a href="https://github.com/HNSharma-07/JavaScript-Tutorials">👉JavaScript Tutorials</a>
+### <a href="https://github.com/HNSharma-07/JavaScript-Tutorials">👉JavaScript Tutorials📓</a>
 
 ### Prerequisites:📍
 - Only basics of HTML and CSS
